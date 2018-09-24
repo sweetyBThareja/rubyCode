@@ -1,0 +1,111 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login functionality",
+    "line": 1,
+    "description": "",
+    "id": "login-functionality",
+    "uri": "features\\login.feature",
+    "elements": [
+      {
+        "comments": [
+          {
+            "value": "#  Scenario Outline: Verify login functionality",
+            "line": 3
+          },
+          {
+            "value": "#    Given I am on the gmail page",
+            "line": 4
+          },
+          {
+            "value": "#    When I enter valid <email> and <password> on sign in page",
+            "line": 5
+          },
+          {
+            "value": "#    Then I should able to login on gmail",
+            "line": 6
+          },
+          {
+            "value": "#",
+            "line": 7
+          },
+          {
+            "value": "#    Examples:",
+            "line": 8
+          },
+          {
+            "value": "#    | email       | password  |",
+            "line": 9
+          },
+          {
+            "value": "#    | swtbarnwal| 7306514042 |",
+            "line": 10
+          }
+        ],
+        "keyword": "Scenario Outline",
+        "name": "As a user I should able to see search results",
+        "line": 12,
+        "description": "",
+        "id": "login-functionality;as-a-user-i-should-able-to-see-search-results",
+        "type": "scenario_outline",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the home page",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/login.rb:16"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I search with any <keyword> keyword",
+            "line": 14,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 18,
+                  "val": "selenium"
+                }
+              ],
+              "location": "features/step_definitions/login.rb:20"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should able to see expected result",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/login.rb:24"
+            }
+          }
+        ],
+        "examples": [
+          {
+            "keyword": "Examples",
+            "name": "",
+            "line": 17,
+            "description": "",
+            "id": "login-functionality;as-a-user-i-should-able-to-see-search-results;",
+            "rows": [
+              {
+                "cells": [
+                  "keyword"
+                ],
+                "line": 18,
+                "id": "login-functionality;as-a-user-i-should-able-to-see-search-results;;1"
+              },
+              {
+                "cells": [
+                  "selenium"
+                ],
+                "line": 19,
+                "id": "login-functionality;as-a-user-i-should-able-to-see-search-results;;2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

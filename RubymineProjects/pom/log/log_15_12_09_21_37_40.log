@@ -1,0 +1,6 @@
+# Logfile created on 2015-12-09 21:37:40 +0530 by logger.rb/41954
+D, [2015-12-09T21:37:47.652554 #14024] DEBUG -- : Browser is launched successfully
+D, [2015-12-09T21:38:26.913799 #14024] DEBUG -- : Browser is maximized successfully
+D, [2015-12-09T21:39:28.731335 #14024] DEBUG -- : Saved screen shot
+D, [2015-12-09T21:39:28.731335 #14024] DEBUG -- : Scenario As a user, I should able to search random product
+D, [2015-12-09T21:39:28.731335 #14024] DEBUG -- : Status failed

@@ -1,0 +1,5 @@
+# Logfile created on 2015-12-17 19:54:28 +0530 by logger.rb/41954
+D, [2015-12-17T19:54:29.303126 #55636] DEBUG -- : Browser is maximized successfully
+D, [2015-12-17T19:54:33.029339 #55636] DEBUG -- : Captured screen shot successfully
+D, [2015-12-17T19:54:33.029339 #55636] DEBUG -- : scenario name: | selenium |
+D, [2015-12-17T19:54:33.029339 #55636] DEBUG -- : #scenario status: failed

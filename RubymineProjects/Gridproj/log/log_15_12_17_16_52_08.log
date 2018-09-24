@@ -1,0 +1,4 @@
+# Logfile created on 2015-12-17 16:52:08 +0530 by logger.rb/41954
+D, [2015-12-17T16:52:10.126228 #3956] DEBUG -- : Browser is maximized successfully
+D, [2015-12-17T16:52:30.109226 #3956] DEBUG -- : scenario name: | sweety511302 | redrose12 |
+D, [2015-12-17T16:52:30.109226 #3956] DEBUG -- : #scenario status: passed

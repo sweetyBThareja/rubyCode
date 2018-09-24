@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Login functionality" skipped="0" tests="1" time="15.773000">
+<testcase classname="Login functionality" name="As a user I should able to see search results (outline example : | selenium |)" time="15.773000">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>

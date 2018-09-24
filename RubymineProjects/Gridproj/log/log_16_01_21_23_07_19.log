@@ -1,0 +1,5 @@
+# Logfile created on 2016-01-21 23:07:19 +0530 by logger.rb/1.2.8
+D, [2016-01-21T23:07:19.927402 #4788] DEBUG -- : Browser is maximized successfully
+D, [2016-01-21T23:07:51.585212 #4788] DEBUG -- : Captured screen shot successfully
+D, [2016-01-21T23:07:51.585212 #4788] DEBUG -- : scenario name: | swtbarnwal | 7306514042 |
+D, [2016-01-21T23:07:51.585212 #4788] DEBUG -- : #scenario status: failed

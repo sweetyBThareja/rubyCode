@@ -1,0 +1,3 @@
+require 'gemmax'
+
+GemMax.init

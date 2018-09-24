@@ -1,0 +1,17 @@
+profile:
+  first_name: ~first_name
+  last_name: ~last_name
+  address: '685 Market street'
+  city: 'San Francisco'
+  state: 'California'
+  zip_code: '94105'
+  month: ~month
+  date: ~randomize(1..28).to_s
+  year: ~randomize(1920..1994).to_s
+  gender: ~randomize ['Female','Male']
+  email: ~email_address
+  password: 'Macys123$'
+  verify_password: 'Macys123$'
+  security_ques: 'What was the first concert you attended?'
+  security_ans: ~randomize ['shimba', 'cyndrella', 'friends']
+

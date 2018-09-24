@@ -1,0 +1,1 @@
+default: -f html -o report<%= ENV['TEST_ENV_NUMBER'] %>.html

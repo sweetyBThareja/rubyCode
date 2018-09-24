@@ -1,0 +1,133 @@
+Remote webdriver
+difference b/w remote webdriver and selenium grid
+How do I run tests on grid?
+We need to use RemoteWebdriver and DesiredCapabilities objects to define browser, version and platform for testing.
+
+What parameters can be passed to grid?
+-port 4444
+-node Timeout - hub will automatically release the node if that node has not receive any request within specified time
+-maxConcurrent 5 - the maximum number of browser that can run in parallel on the node
+
+How do I do database testing using selenium?
+Selenium doesnot support database testing but our language does. eg, if we r using java then we can use JDBC to connect wid database and if we r using ruby then we can use activerecord gem.
+
+I completed test execution and now I want to email test report?
+
+
+ul>
+<li>Firefox</li>
+<li>Google Chrome</li>
+<li>Internet Explorer</li>
+<li>Opera</li>
+<li>Safari</li>
+</ul>
+
+
+Which CSS selector is a valid statement to select Opera? #css = ul > li:nth-of-type(4)
+
+
+<table>
+<tr>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4</td>
+</tr>
+</table>
+
+
+driver.findElement(By.xpath("//table/tr[1]/td")).getText(); 
+
+A	
+
+
+
+The following codes both print: Welcome to TestingExcellence.com 
+
+<html>
+<head>
+<title>Welcome to TestingExcellence.com</title>
+</head>
+<body>
+</body>
+</html>
+
+
+System.out.println(driver.getTitle()); 
+
+System.out.println(driver.findElement(By.tagName("title")).getText())
+
+
+
+Automation testing:
+What kind of tests should NOT be automated?
+A: This interview question is similar to previous question but focuses on which tests Not to be automated and left for manual testing. Possible answers can be:
+
+Usability Testing – at times this can be an impossible task to perform by automation as the computer cannot efficiently judge if the system is of any use to its users
+Tests that only need to be executed once – unless the same test needs to be executed for a large dataset then it makes sense to automate
+Tests without predictable results – test automation should give us confidence in the results of the tests. If there are intermittent failures then the tests cannot be reliable and cannot be dependent on
+Tests that need to be verified visually
+Tests that need to be executed quickly. At first, writing an automated test takes longer. If we want a quick check, we should test manually, however, if that test is a good one which should be run regularly, then it should be automated in time
+
+What are Pros and Cons of automating tests at UI layer?
+A: Pros
+
+UI automated tests execute in a way that simulates user interacting with the system. So it is very good for validating user journeys and flows
+Can cover end-to-end flows that communicate with 3rd party systems
+Because tests are run against the system, they can be demoed to the customer who can understand what tests are run
+Can catch high severity or show stopper bugs
+Can check UI functionality where it is not possible to test otherwise
+A: Cons
+
+UI automated tests can be very brittle (i.e. fail due to UI changes even though functionality hasn’t changed)
+Slow feedback to the team. Execution is slow as you have to wait for the system to launch and connections with 3rd party system can take a long time
+Limitation on what can be checked from the UI. There are some information that are not present from the UI
+Because tests are slow from UI, we can’t have a lot of tests running against the UI
+Can be time consuming to construct automated test scripts for the UI
+Usually have to depend on a 3rd party tool or vendor for UI testing
+
+
+What are the prerequisites to run selenium webdriver?
+
+What are the disadvantages of selenium webdriver over selenium 1.0?
+
+Explain how you can use recovery scenario with Selenium?
+
+What are the difficulties or challenge you faced in selenium?
+
+how do you check a single test method in multiple browser?
+
+How do you handle the secured connection error in HTTPS?
+
+How to retrieve css properties of an element?
+
+Can WebDriver test Mobile applications?
+WebDriver cannot test Mobile applications. WebDriver is a web based testing tool, therefore applications on the mobile browsers can be tested.
+
+What is Object Repository? How can we create Object Repository in Selenium?
+
+What is same origin policy? How you can avoid same origin policy?
+The “Same Origin Policy” is introduced for security reason, and it ensures that content of your site will never be accessible by a script from another site. As per the policy, any code loaded within the browser can only operate within that website’s domain. 
+
+To avoid “Same Origin Policy” proxy injection method is used, in proxy injection mode the Selenium Server acts as a client configured HTTP proxy , which sits between the browser and application under test and then masks the AUT under a fictional URL
+
+Give the example for method overload in WebDriver.
+
+Ans- frame(string), frame(int), frame(WebElement).
+
+How do you achieve synchronization in WebDriver ?
+
+Ans- We can use implicit wait.
+Syntax- driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+Here it will wait for 10sec if while execution driver did not find the element in the page immediately. This code will attach with each and every line of the script automatically. It is not required to write everytime. Just write it once after opening the browser.
+
+This is the most simple and basic component of life: our struggles determine our successes.
+
+
+Daily work routine
+
+Around hook: Around hooks will run "around" a scenario. This can be used to wrap the execution of a scenario in a block. The Around hook receives a scenario object and a block (Proc) object. The scenario will be executed when you invoke block.call.
+
+

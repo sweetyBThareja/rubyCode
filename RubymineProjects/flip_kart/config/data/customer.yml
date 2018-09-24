@@ -1,0 +1,7 @@
+customer:
+  # Profile
+  email: ~"qaautomacys@#{mask('aaaaaaaaaaaaaaaa')}.com"
+  password: Macys12345
+  phone_number: ~randomize(1000000000..9999999999).to_s
+  login_email: "sweety511302@gmail.com"
+  login_password: "redrose1"

@@ -1,0 +1,6 @@
+information:
+  # Profile
+  first_name: ~dm_first_name.delete("'")
+  last_name: ~dm_last_name.delete("'")
+  land_line: ~randomize(1000000000..9999999999).to_s
+  gender: ~randomize ['male', 'female']

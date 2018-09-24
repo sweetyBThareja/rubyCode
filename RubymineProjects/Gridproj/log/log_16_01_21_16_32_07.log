@@ -1,0 +1,4 @@
+# Logfile created on 2016-01-21 16:32:07 +0530 by logger.rb/41954
+D, [2016-01-21T16:32:08.453689 #3160] DEBUG -- : Browser is maximized successfully
+D, [2016-01-21T16:32:20.773689 #3160] DEBUG -- : scenario name: | selenium |
+D, [2016-01-21T16:32:20.773689 #3160] DEBUG -- : #scenario status: passed

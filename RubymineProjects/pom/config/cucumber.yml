@@ -1,0 +1,1 @@
+default: -r support -r features/step_definitions -f html -o result.html -f pretty
